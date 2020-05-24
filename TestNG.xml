@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="iNetBanking_TEST_AUTOMATION_SUITE">
+	
+	<listeners>
+		<listener class-name="com.iNetBanking_TEST_AUTOMATION_SUITE.utiilities.Reporting"/>
+	</listeners>
+	
+	<test name="Banking App Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.iNetBanking_TEST_AUTOMATION_SUITE.testCases.TC01_LoginPage" />
+			<!-- <class name="com.iNetBanking.testCases.TC02_LoginPage_DDT" />-->
+		</classes>
+	</test>
+</suite>
